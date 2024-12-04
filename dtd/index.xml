@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE aptech [
+
+]>
+
+<aptech>
+<student field="science">
+<id>1</id>
+<name>Ali</name>
+<email>ali@gmail.com</email>
+<branch>cname;</branch>
+</student>
+<student field="eng">
+<id>2</id>
+<name>Hassan</name>
+<email>hassan@gmail.com</email>
+<branch>cname;</branch>
+</student>
+</aptech>

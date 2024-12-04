@@ -1,0 +1,8 @@
+<!ELEMENT aptech (student)>
+<!ELEMENT student (id, name, email, branch)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT branch (#PCDATA)>
+<!ATTLIST student field CDATA #FIXED "science">
+<!ENTITY cname "Aptech Shahra-e-faisal">

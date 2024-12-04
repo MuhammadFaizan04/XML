@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="index.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<?xml-stylesheet href="index.xsl" type="text/xsl"?>
+
+<aptech>
+
+<student>
+<id>1</id>
+<stdName>hamza</stdName>
+<stdEmail>faizan@gmail.com</stdEmail>
+<password></password>
+<age>19</age>
+<city>karachi</city>
+</student>
+
+
+
+</aptech>

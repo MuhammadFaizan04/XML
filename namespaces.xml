@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<aptech xmlns:s1="https:/students/s1" xmlns:s2="https:/students/s2">
+
+<s1:student>
+<s1:id>1</s1:id>
+<s1:name>Ali</s1:name>
+</s1:student>
+
+<s2:student>
+<s2:id>2</s2:id>
+<s2:name>Hassan</s2:name>
+</s2:student>
+
+</aptech>

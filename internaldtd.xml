@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE aptech [
+<!ELEMENT aptech (student*)>
+<!ELEMENT student (id, name, email, branch)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT branch (#PCDATA)>
+<!ATTLIST student field CDATA #FIXED "science">
+<!ENTITY cname "Aptech Shahra-e-faisal">
+]>
+
+<aptech>
+<student field="science">
+<id>1</id>
+<name>Ali</name>
+<email>ali@gmail.com</email>
+<branch>cname;</branch>
+</student>
+<student field="science">
+<id>2</id>
+<name>Hassan</name>
+<email>hassan@gmail.com</email>
+<branch>cname;</branch>
+</student>
+</aptech>
