@@ -17,12 +17,12 @@
         <tbody>
             <xsl:for-each select="aptech/student">
             <tr>
-                <td><xsl:value-of name="id"/></td>
-                <td><xsl:value-of name="name"/></td>
-                <td><xsl:value-of name="email"/></td>
-                <td><xsl:value-of name="password"/></td>
-                <td><xsl:value-of name="age"/></td>
-                <td><xsl:value-of name="city"/></td>
+                <td><xsl:value-of select="id"/></td>
+                <td><xsl:value-of select="stdName"/></td>
+                <td><xsl:value-of select="stdEmail"/></td>
+                <td><xsl:value-of select="password"/></td>
+                <td><xsl:value-of select="age"/></td>
+                <td><xsl:value-of select="city"/></td>
             </tr>
         </xsl:for-each>
         </tbody>

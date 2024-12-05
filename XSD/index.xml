@@ -6,11 +6,20 @@
 
 <student>
 <id>1</id>
-<stdName>hamza</stdName>
+<stdName>faizan</stdName>
 <stdEmail>faizan@gmail.com</stdEmail>
-<password></password>
+<password>faizan_@222</password>
 <age>19</age>
 <city>karachi</city>
+</student>
+
+<student>
+<id>2</id>
+<stdName>hassan</stdName>
+<stdEmail>hassan@gmail.com</stdEmail>
+<password>hassan_@3422</password>
+<age>22</age>
+<city>lahore</city>
 </student>
 
 

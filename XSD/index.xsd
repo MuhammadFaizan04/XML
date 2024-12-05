@@ -24,8 +24,8 @@
     </xs:element>
     <xs:element name="password">
     <xs:simpleType>
-    <xs:restriction base="">
-    <xs:pattern value=""></xs:pattern>
+    <xs:restriction base="xs:string">
+    <xs:pattern value="[a-zA-z_]{4,}[@]{1}[0-9]{3,}"></xs:pattern>
     </xs:restriction>
     </xs:simpleType>
     </xs:element>
